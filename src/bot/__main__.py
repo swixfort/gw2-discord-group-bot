@@ -29,4 +29,4 @@ async def on_message(message):
         await message.channel.send('Hello!')
 
 if __name__ == "__main__":
-    client.run(getenv("DISCORD_TOKEN
+    client.run(getenv("DISCORD_TOKEN"))
